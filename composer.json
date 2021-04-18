@@ -1,0 +1,18 @@
+{
+    "name": "web6/class-collection",
+    "description": "Organize classes in folders and auto/lazy load them as attributes.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "WEB6",
+            "email": "contact@web6.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { 
+            "W6\\ClassCollection\\": "src/" 
+        }
+    }
+}
